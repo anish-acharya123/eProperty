@@ -16,14 +16,24 @@ export default function footer() {
           </div>
           <div className="icon">
             <div>
-              <a href="https://github.com" target="_blank" alt="footer">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="footer"
+              >
                 <img src={github} alt="error" />
               </a>{" "}
               <br />
               <div className="first-icon-text">Github</div>
             </div>
             <div>
-              <a href="https://facebook.com" target={"_blank"}>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="footer"
+              >
                 {" "}
                 <img src={facebook} alt="error" />{" "}
               </a>
@@ -31,14 +41,24 @@ export default function footer() {
               <div className="first-icon-text">facebook</div>
             </div>
             <div>
-              <a href="https://instagram.com" target={"_blank"}>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="footer"
+              >
                 {" "}
                 <img src={instagram} alt="error" />{" "}
               </a>
               <div className="first-icon-text">instagram</div>
             </div>
             <div>
-              <a href="https://twitter.com" target={"_blank"}>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="footer"
+              >
                 {" "}
                 <img src={twitter} alt="error" />{" "}
               </a>
