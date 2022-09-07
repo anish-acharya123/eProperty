@@ -1,12 +1,6 @@
 ### Project Showcase
 
-## desktop view
-
 ![alt text](./src/Assets/show.jpg)
-
-## mobile view
-
-![alt text](./src/Assets/show2.jpg)
 
 ## Available Scripts
 
