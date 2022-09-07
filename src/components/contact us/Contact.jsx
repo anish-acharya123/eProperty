@@ -1,9 +1,9 @@
 import React from "react";
 import "./contact.css";
-import github from "/Ashish Project/anish/src/Assets/icons/github.svg";
-import facebook from "/Ashish Project/anish/src/Assets/icons/facebook.svg";
-import instagram from "/Ashish Project/anish/src/Assets/icons/instagram.svg";
-import twitter from "/Ashish Project/anish/src/Assets/icons/twitter.svg";
+import github from "../../Assets/github_logo.svg";
+import facebook from "../../Assets/icons/facebook.svg";
+import instagram from "../../Assets/icons/instagram.svg";
+import twitter from "../../Assets/icons/twitter.svg";
 
 export default function Contact() {
   return (
@@ -27,9 +27,7 @@ export default function Contact() {
             <button>Contact with us</button>
           </div>
           <div className="social-media">
-            <div className="contact-text1">
-              Social Links 
-            </div>
+            <div className="contact-text1">Social Links</div>
             <div className="icon1">
               <div>
                 <a href="https://github.com" target={"_blank"}>

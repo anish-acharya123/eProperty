@@ -1,10 +1,10 @@
 import React from "react";
 import "./footer.css";
-import github from "/Ashish Project/anish/src/Assets/icons/github.svg";
-import facebook from "/Ashish Project/anish/src/Assets/icons/facebook.svg";
-import instagram from "/Ashish Project/anish/src/Assets/icons/instagram.svg";
-import twitter from "/Ashish Project/anish/src/Assets/icons/twitter.svg";
-import logo from "/Ashish Project/anish/src/Assets/logo.svg";
+import github from "../../Assets/github_logo.svg";
+import facebook from "../../Assets/icons/facebook.svg";
+import instagram from "../../Assets/icons/instagram.svg";
+import twitter from "../../Assets/icons/twitter.svg";
+import logo from "../../Assets/logo.svg";
 
 export default function footer() {
   return (
@@ -16,7 +16,7 @@ export default function footer() {
           </div>
           <div className="icon">
             <div>
-              <a href="https://github.com" target={"_blank"}>
+              <a href="https://github.com" target="_blank" alt="footer">
                 <img src={github} alt="error" />
               </a>{" "}
               <br />
@@ -56,7 +56,8 @@ export default function footer() {
           {" "}
           <div className="footer-text2">Subscribe for daily updates</div>
           <div className="input-field">
-            Email <br /><input type="email" />
+            Email <br />
+            <input type="email" />
           </div>
           <button> Subscribe</button>
         </div>
