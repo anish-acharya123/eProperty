@@ -187,6 +187,7 @@
     .contact-img {
         fill: rgb(255, 254, 254);
         filter: invert(1);
+        z-index: -1;
     }
 
     .contact{
