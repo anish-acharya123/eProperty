@@ -160,56 +160,7 @@
    background-color: #162431;
 }
 
-<<<<<<< HEAD
 @media (max-width: 700px){
-=======
-@media (max-width:995px){
-    .footer-section{
-        height: 28rem;
-    }
-    
-
-    .footer-text1{
-        font-size: 1.7rem;
-        margin-left: -10rem;
-    }
-    .icon{
-        margin-left: -2rem;
-    }
-    .icon img{
-        height: 1.5rem;
-        margin: 2rem 0rem 3rem 3rem;
-    }
-
-    .second img{
-        height: 7rem;
-        /* width: 10rem; */
-    }
-    
-    .footer-text2{
-        font-size: 1.3rem;
-        margin: 0 0 -2rem -5rem ;
-    }
-    .input-field{
-        margin-left: -1rem;
-        font-size: 1.2rem;
-    }
-
-    .third button{
-        margin: 0 0 1rem -2.5rem;
-    }
-   
-}
-
-/* @media (max-width:741){
-    .firth{
-        width: 92%;
-    }
-} */
-
-
-@media (max-width: 751px){
->>>>>>> 2261e7fa61f03e9552367fc31d4cf34c0027e38d
 
     .footer-section{
         height: 48rem;
