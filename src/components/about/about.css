@@ -1,0 +1,154 @@
+.about{
+  display: flex;
+  flex-direction: row;
+  height: 46.8rem;
+}
+.about-section {
+  font-family: "Sen", sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  /* top: -1rem;
+  left: 0rem; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/src/Assets/About\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.main {
+  margin: 10rem 89rem 0rem 12rem;
+  height: 73vh;
+  width: 74rem;
+  display: flex;
+  flex-direction: row;
+}
+.main-first {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.first-text1 {
+  font-size: 12px;
+  animation: textAnimation 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+.first-text2 {
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  animation: text2Animation 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes text2Animation {
+  0% {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
+.first-text3 {
+  position: relative;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: rgb(255, 250, 250);
+  margin-top: 2rem;
+  /* background-color: red; */
+}
+
+.first-text3::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -0.5rem;
+  left: -0.2rem;
+  background: rgb(185, 185, 185);
+  width: 1.2%;
+  height: 120%;
+}
+
+.first-text4{
+  margin-top: 4rem;
+  font-size: 1.2rem;
+
+}
+
+.first-btn{
+  margin-top: 1rem;
+}
+.button{
+  font-size: 20px;
+  border: 2px solid  #31454b ;
+  background-color: #31454b;
+  padding: 10px 120px 10px 120px;
+  color: rgb(253, 249, 249);
+  cursor: pointer;
+}
+
+
+.main-second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-text1 {
+  
+  font-size: 1rem;
+  margin-left: 8.5rem;
+  color: rgb(162, 161, 161);
+  animation: Stext1Animation 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes Stext1Animation {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
+}
+
+.second-card{
+ 
+  margin-top: 0rem;
+  margin-left: 8rem;
+  display: grid;
+  gap: 180px 50px;
+  grid-template-columns: auto auto ;
+
+}
+.card{
+  width: 100%;
+  padding: 25px;
+  font-size: 15px;
+  text-align: center;
+
+}

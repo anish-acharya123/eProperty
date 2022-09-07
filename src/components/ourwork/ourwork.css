@@ -1,0 +1,71 @@
+.ourwork-section
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #162431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    height: 70vh;
+    width: 75%;
+    margin-top: 5rem;
+    /* border:  2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ourwork-card{
+    height: 40%;
+    width: 28%;
+    box-shadow: 0 0 5px black;
+    border: 0.3rem solid white;
+    margin: 0em 0rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.image-wrapper{
+    height: 60%;
+    width: 80%;
+    overflow: hidden;  
+    border: 2px solid gray;
+}
+
+.ourwork-card img{
+    height: 10rem;
+    width: 17rem;
+    object-fit: cover;
+}
+.ourwork-card div:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: 700;
+    /* width: 40%; */
+    /* padding-right: .5em; */
+}
+
+.ourwork-card button{
+    height: 2.2rem;
+    width: 16rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-top-right-radius:0.5rem ;
+    border-bottom-left-radius:0.5rem ;
+    cursor: pointer;
+}
+.ourwork-card button:hover{
+    background-color: rgb(126, 124, 124);
+}
+/* @media  only screen and (max-width: 568px) {
+    .ourwork-card{
+        width: 85%;
+    }
+    .ourwork-card div{
+        font-size: 1.2rem;
+    }
+} */

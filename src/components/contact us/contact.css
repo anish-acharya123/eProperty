@@ -1,0 +1,97 @@
+
+.contact-section{
+    height: 100vh;
+    width: 100vw;
+    background-color: #162431;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-div{
+    height: 65%;
+    width: 75%;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    font-family: "Sen", sans-serif;
+    color: white;
+    background-color: #DBDBDB;
+    overflow: hidden;
+    display: flex;
+}
+.image{
+    height: 100%;
+    width: 90%;
+    background-image:url(/src/Assets/contactbg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    /* margin-left: 100rem; */
+}
+.contact{
+    height: 25rem;
+    width: 22rem;
+    position: absolute;
+    right: 27rem;
+    top: 12rem;
+  /* border: 2px solid red; */
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.contact div{
+    margin-top: 2rem;
+}
+.contact input{
+    height: 2rem;
+    width: 19rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.3rem solid gray;
+    outline: none;
+    font-size: 1.3rem;
+}
+.contact button{
+    font-size: 1.2rem;
+    background-color: #31454b;
+    padding: 1rem 5.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+}
+
+  
+.social-media{
+    height: 100%;
+    width: 10%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.contact-text1{
+    font-size: 1.9rem;
+    font-weight: 700;
+    
+}
+
+.icon1{
+    margin-left: -3rem;
+}
+.icon1 img{
+    height: 2rem;
+    width: 2rem;
+    margin:2rem 3rem 3rem 3rem;
+    /* color: white; */
+    cursor: pointer;
+}
+.contact-icon-text{
+    /* margin-left: 2.3rem; */
+    margin-top: -3rem;
+    text-align: center;
+    font-weight: 700;
+}

@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color:  rgb(6, 37, 76);
+
+}
+.Hero-section{
+  font-family: 'Sen', sans-serif;
+  /* height: 1000vh; */
+  overflow-x: hidden;
+}
+
+
+.Home-section{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./Assets/background.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: top;
+  background-color: #162431;
+  position: relative;
+  /* z-index: -1.5; */
+  /* background-position-y: -5rem; */
+  animation: home 1s;
+  animation-fill-mode:both;
+}
+
+@keyframes home {
+  from{
+   transform: translateY(10rem);
+  }
+  to{
+   transform: translateY(0rem);
+  }
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
