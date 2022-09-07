@@ -24,20 +24,16 @@ function App() {
       {loader ? (
         <Loader />
       ) : (
-        // <div className="Home-section">
         <Router>
           <Navbar />
-
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/about" element={<About />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
             <Route exact path="/work" element={<Ourwork />}></Route>
           </Routes>
-
           <Footer />
         </Router>
-        // </div>
       )}
     </>
   );

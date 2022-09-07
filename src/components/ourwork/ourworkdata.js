@@ -5,7 +5,7 @@ import image4 from "../../Assets/ourwork/image4.png";
 import image5 from "../../Assets/ourwork/image5.png";
 import image6 from "../../Assets/ourwork/image6.png";
 
-const ourwork = [
+export const ourwork = [
   {
     id: 1,
     image: image1,
@@ -37,4 +37,3 @@ const ourwork = [
     title: "4 crore ke ghr hey ",
   },
 ];
-export default ourwork;

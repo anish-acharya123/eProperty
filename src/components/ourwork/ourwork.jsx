@@ -1,24 +1,23 @@
 import React from "react";
 import "./ourwork.css";
-import Ourwoekdata from "./ourworkdata";
+import { ourwork as Ourworkdata } from "./ourworkdata";
 
 export default function ourwork() {
   return (
     <>
+      <h1 className="heading-ourworks">Recent House for sale</h1>
       <div className="ourwork-section">
-        <div className="container2" id="root">
-          {Ourwoekdata.map((val) => {
-            return (
-              <div class="ourwork-card">
-                <div className="image-wrapper">
-                  <img src={val.image} alt="" />
-                </div>
-                <div>{val.title}</div>
-                <button>Contact Us</button>
+        {Ourworkdata.map((val) => {
+          return (
+            <div class="ourwork-card">
+              <div className="image-wrapper">
+                <img src={val.image} alt="our work img" />
               </div>
-            );
-          })}
-        </div>
+              <div class="ourwork_title">{val.title}</div>
+              <button>Contact Us</button>
+            </div>
+          );
+        })}
       </div>
     </>
   );
