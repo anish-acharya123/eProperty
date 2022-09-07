@@ -4,7 +4,7 @@ import logo from "../../Assets/logo.svg";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-export default function Navbar(props) {
+export default function Navbar() {
   return (
     <>
       <div className="main-div">
@@ -16,7 +16,6 @@ export default function Navbar(props) {
           <ul className="nav-ul">
             <li>
               <Link className="list" to="/">
-                {" "}
                 HOME
               </Link>
             </li>

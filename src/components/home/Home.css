@@ -7,23 +7,10 @@
   font-family: "Sen", sans-serif;
   background-image: url(../../Assets/background.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   background-position: top;
   background-color: #162431;
-  /* animation: home 1s;
-  animation-fill-mode:both; */
 }
-
-/* @keyframes home {
-from{
- transform: translateY(10rem);
-}
-to{
- transform: translateY(0rem);
-}
-} */
-
-
 .heading {
   font-size: 50px;
   animation: headingAnimation 2s;
@@ -31,23 +18,9 @@ to{
   opacity: 0;
 }
 
-.contain{
-  padding:0 0 0 12rem ;
+.contain {
+  padding: 0 0 0 12rem;
   margin: 0 0 5rem 0;
-}
-
-
-
-@keyframes headingAnimation {
-  0% {
-    opacity: 0;
-    transform: translateX(-40rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0rem);
-  }
 }
 
 .text1 {
@@ -58,6 +31,18 @@ to{
   animation-fill-mode: forwards;
   opacity: 0;
 }
+
+@keyframes headingAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0rem);
+  }
+}
+
 @keyframes text1Animation {
   0% {
     opacity: 0;
@@ -79,6 +64,7 @@ to{
   color: rgb(206, 203, 203);
   margin-top: 4rem;
 }
+
 .reviews::before {
   content: "";
   display: block;
@@ -101,7 +87,6 @@ to{
 
 .btn {
   font-size: 15px;
-  /* border-radius: 10px; */
   background-color: #31454b;
   padding: 15px 100px 15px 100px;
   color: whitesmoke;
@@ -109,81 +94,80 @@ to{
   margin-top: 10px;
   border: none;
   transition: all 0.2s;
-
 }
 .btn:hover {
   background-color: transparent;
-  /* color: black; */
   border: 2px solid white;
   animation: ashish 1s;
 }
 
 @keyframes ashish {
-  0%{
+  0% {
     clip-path: circle(100%);
   }
-  50%{
+  50% {
     clip-path: circle(35%);
   }
-  100%{
+  100% {
     clip-path: circle(100%);
   }
 }
 
-@media (max-width: 1030px){
+@media (max-width: 1030px) {
   #img {
-      margin-left: 7rem;
+    margin-left: 7rem;
   }
 
   .contain {
-      padding: 0 0 0 7rem;
+    padding: 0 0 0 7rem;
   }
 }
 
-
- /* media first  */
- @media (max-width: 700px){
+@media (max-width: 700px) {
   #img {
     margin-left: 3rem;
-}
+  }
 
-.contain {
+  .contain {
     padding: 0 0 0 3rem;
-}
-  .container{
+  }
+
+  .container {
     height: 78vh;
     background-position: bottom;
     align-items: flex-start;
   }
-  .contain{
-    padding:0 0 0 2rem ;
+
+  .contain {
+    padding: 0 0 0 2rem;
     margin: 5rem 0 0 0;
   }
+
   .heading {
     font-size: 40px;
   }
 
   .text1 {
     font-size: 19px;
-}
+  }
+
   .reviews {
     font-size: 15px;
     margin-top: 2rem;
   }
   .reviews::before {
     width: 0.2rem;
-    top:0;
+    top: 0;
     height: 100%;
-
-}
+  }
 
   .join-text {
     font-size: 15px;
   }
 
-.join-btn {
-  margin-top: 2rem;
-}
+  .join-btn {
+    margin-top: 2rem;
+  }
 
   .btn {
     font-size: 12px;
