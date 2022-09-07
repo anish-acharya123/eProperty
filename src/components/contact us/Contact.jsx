@@ -30,33 +30,51 @@ export default function Contact() {
             <div className="contact-text1">Social Links</div>
             <div className="icon1">
               <div>
-                <a href="https://github.com" target={"_blank"}>
-                  <img src={github} alt="error" />
-                </a>{" "}
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="footer"
+                >
+                  <img src={github} alt="error" className="contact-img" />
+                </a>
                 <br />
                 <div className="contact-icon-text">Github</div>
               </div>
               <div>
-                <a href="https://facebook.com" target={"_blank"}>
-                  {" "}
-                  <img src={facebook} alt="error" />{" "}
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="footer"
+                >
+                  <img src={facebook} alt="error" className="contact-img" />
                 </a>
                 <br />
                 <div className="contact-icon-text">facebook</div>
               </div>
               <div>
-                <a href="https://instagram.com" target={"_blank"}>
-                  {" "}
-                  <img src={instagram} alt="error" />{" "}
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="footer"
+                >
+                  <img src={instagram} alt="error" className="contact-img" />
                 </a>
                 <div className="contact-icon-text">instagram</div>
               </div>
               <div>
-                <a href="https://twitter.com" target={"_blank"}>
-                  {" "}
-                  <img src={twitter} alt="error" />{" "}
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  alt="footer"
+                >
+                  <img src={twitter} alt="error" className="contact-img" />
                 </a>
-                <br /> <div className="first-icon-text">twitter</div>
+                <br />{" "}
+                <div className="first-icon-text contact-icon-text">twitter</div>
               </div>
             </div>
           </div>
