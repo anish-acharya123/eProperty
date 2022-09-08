@@ -222,7 +222,7 @@
     }
     
     .contact input{
-        width: 32rem;
+        width: 30rem;
         color: white;
         border-bottom: 0.15rem solid rgba(255, 252, 252, 0.6);
     }
@@ -280,7 +280,7 @@
 
 
     .contact{
-        right: 2rem;
+        right: 3rem;
         color: white;
     }
     
