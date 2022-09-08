@@ -1,9 +1,9 @@
 import React from "react";
 import "./footer.css";
 import github from "../../Assets/github_logo.svg";
-import facebook from "../../Assets/icons/facebook.svg";
-import instagram from "../../Assets/icons/instagram.svg";
-import twitter from "../../Assets/icons/twitter.svg";
+import facebook from "../../Assets/facebook_logo.svg";
+import instagram from "../../Assets/instagram_logo.svg";
+import twitter from "../../Assets/twitter_logo.svg";
 import logo from "../../Assets/logo.svg";
 
 export default function footer() {

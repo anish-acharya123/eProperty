@@ -100,6 +100,9 @@
 
 
 @media(max-width: 1500px){
+    .contact-div{
+        height: 33rem;
+    }
     .contact{
         right: 23rem;
     }
@@ -108,6 +111,9 @@
 @media(max-width: 1350px){
     .contact{
         right: 20rem;
+    }
+    .social-media{
+        width: 12%;
     }
 }
 
@@ -132,9 +138,33 @@
         width: 15%;
     }
 }
+@media (max-width:830px) {
+    .contact{
+        right: 6rem;
+    }
+    .contact input {
+        width: 17rem;
+    }
+    .contact button {
+        padding: 1rem 4.5rem;
+    }
+    
+}
+@media (max-width:765px) {
+    .contact{
+        right: 5rem;
+    }
+    
+}
+
+/* @media(max-width: 870px){
+    .contact{
+        right: 9rem;
+    }
+} */
 
 
-@media(max-width: 500px){
+@media (max-width:725px) {
     .contact-div{
         width: 90%;
         overflow: hidden;
@@ -148,7 +178,7 @@
     }
 
     .social-media{
-        width: 100%;
+        width: 95%;
         height: 20%;
         background-color: transparent;
         position: absolute;
@@ -191,13 +221,18 @@
     }
 
     .contact{
-        right: 2rem;
+        right: 14rem;
         color: white;
     }
     
     .contact input{
+        width: 32rem;
         color: white;
         border-bottom: 0.15rem solid rgba(255, 252, 252, 0.6);
+    }
+    .contact button{
+        padding: 1rem 1.5rem;
+        margin-left: 9rem;
     }
     
 
@@ -208,8 +243,80 @@
         /* scale: 0.8; */
         filter: brightness(40%);
     }
+    
+}
+@media (max-width:700px) {
+    .contact{
+        right: 12rem;
+    }
+    .contact input{
+        width: 28rem;
+    }
+    .contact button {
+        margin-left: 7rem;
+    }
+}
+@media (max-width:640px) {
+    .contact{
+        right: 9rem;
+    }
+    .social-media{
+        width: 95%;
+    }
+    .contact input{
+        width: 25rem;
+    }
+   
+}
+@media (max-width:570px) {
+    .contact{
+        right: 6rem;
+    }
+    .social-media{
+        width: 95%;
+    }
+    .contact input{
+        width: 23rem;
+    }
+   
+}
+@media(max-width: 500px){
+
+
+    .contact{
+        right: 2rem;
+        color: white;
+    }
+    
+    .contact input{
+        color: white;
+        border-bottom: 0.15rem solid rgba(255, 252, 252, 0.6);
+    }
+
+    
+    .contact input{
+        width: 19rem;
+        color: white;
+        border-bottom: 0.15rem solid rgba(255, 252, 252, 0.6);
+    }
+    .contact button{
+        padding: 1rem 5.5rem;
+        margin-left: 0rem;
+    }
+    
 }
 
+@media (max-width: 465px){
+
+    .social-media{
+        width: 87%;
+    }
+    .contact{
+        right: 1.5rem;
+        /* width: 21rem; */
+        /* border: 1px solid white; */
+    }
+}
 @media (max-width: 435px){
 
     .social-media{
@@ -224,6 +331,12 @@
 
 @media (max-width: 391px){
     .contact{
-        /* right: 0; */
+        right: -2rem;
+    }
+    .contact input{
+        width: 16rem;
+    }
+    .contact button {
+        padding: 1rem 4rem;
     }
 }
