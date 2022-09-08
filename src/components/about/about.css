@@ -1,8 +1,4 @@
-.about{
-  display: flex;
-  flex-direction: row;
-  height: 46.8rem;
-}
+
 .about-section {
   font-family: "Sen", sans-serif;
   color: white;
@@ -14,13 +10,14 @@
     url(/src/Assets/About\ background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  background-position: top;
+  /* position: absolute; */
 }
 
 .main {
-  margin: 10rem 89rem 0rem 12rem;
-  height: 73vh;
-  width: 74rem;
+  /* margin: 10rem 89rem 0rem 12rem; */
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
 }

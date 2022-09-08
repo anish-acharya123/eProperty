@@ -1,9 +1,9 @@
 import React from "react";
 import "./contact.css";
 import github from "../../Assets/github_logo.svg";
-import facebook from "../../Assets/icons/facebook.svg";
-import instagram from "../../Assets/icons/instagram.svg";
-import twitter from "../../Assets/icons/twitter.svg";
+import facebook from "../../Assets/facebook_logo.svg";
+import instagram from "../../Assets/instagram_logo.svg";
+import twitter from "../../Assets/twitter_logo.svg";
 
 export default function Contact() {
   return (
@@ -74,7 +74,7 @@ export default function Contact() {
                   <img src={twitter} alt="error" className="contact-img" />
                 </a>
                 <br />{" "}
-                <div className="first-icon-text contact-icon-text">twitter</div>
+                <div className="contact-icon-text">twitter</div>
               </div>
             </div>
           </div>

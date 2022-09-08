@@ -2,12 +2,12 @@ import React from "react";
 import "../about/about.css";
 import Card from "../Card";
 import articles from "../Data";
-import Footer from "../footer/footer";
+// import Footer from "../footer/footer";
 
 export default function aboutUs() {
   return (
     <>
-      <div className="about">
+      {/* <div className="about"> */}
         <div className="about-section">
           <div className="main">
             <div className="main-first">
@@ -50,7 +50,7 @@ export default function aboutUs() {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }
