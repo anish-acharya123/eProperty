@@ -1,19 +1,11 @@
-
-
-.Home-section{
-  animation: home 1s;
-  animation-fill-mode:both;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-@keyframes home {
-  from{
-   transform: translateY(10rem);
-  }
-  to{
-   transform: translateY(0rem);
-  }
+body{
+  background-color: #162431;
 }
-
 
 html{
   scroll-behavior: smooth;
