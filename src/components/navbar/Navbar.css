@@ -38,6 +38,10 @@
   color: rgb(199, 199, 199);
 }
 
+.list svg {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .nav-bar {
     padding: 0;
@@ -61,6 +65,30 @@
     display: flex;
     justify-content: space-around;
     border-top: 2px solid rgba(255, 250, 250, 0.5);
+  }
+
+  .list {
+    /* width: 9rem; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+
+    height: 5rem;
+  }
+
+  .list h3 {
+    font-size: 0.8rem;
+    margin-right: 28px;
+    display: none;
+  }
+
+  .list svg {
+    display: inline-block;
+    font-size: 1.7rem;
+    /* background-color: aqua; */
+    width: 100%;
   }
 }
 
