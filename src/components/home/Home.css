@@ -138,10 +138,12 @@
 
   .heading {
     font-size: 40px;
+    margin-left: -0.6rem;
   }
 
   .text1 {
     font-size: 19px;
+    margin-left: -0.6rem;
   }
 
   .reviews {
