@@ -98,6 +98,13 @@
     /* background-color: aqua; */
     width: 100%;
   }
+  .active{
+    color: yellow;
+    display: inline-block;
+    font-size: 1.7rem;
+    /* background-color: aqua; */
+    width: 100%;
+  }
   .nav-ul {
     text-indent: 0;
   }
