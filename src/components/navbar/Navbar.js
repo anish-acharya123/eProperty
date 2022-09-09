@@ -15,33 +15,42 @@ export default function Navbar() {
     <>
       <div className="main-div">
         <div className="nav-bar">
-          <Link to="/">
+          <Link  to="/">
             <img id="img" src={logo} alt="error" />
           </Link>
 
           <ul className="nav-ul">
             <li>
               <Link className="list" to="/">
-                <h3> HOME </h3>
+                <div className="nav-text-icon">
+
                 <FontAwesomeIcon icon={faHouse} />
+                <h3> HOME </h3>
+                </div>
               </Link>
             </li>
             <li>
               <Link className="list" to="/work">
-                <h3> OUR WORK </h3>
+              <div className="nav-text-icon">
                 <FontAwesomeIcon icon={faBookOpen} />
+                <h3> OUR WORK </h3>
+                </div>
               </Link>
             </li>
             <li>
               <Link className="list" to="/about">
-                <h3>ABOUT US </h3>
+              <div className="nav-text-icon">
                 <FontAwesomeIcon icon={faBriefcase} />
+                <h3>ABOUT US </h3>
+                </div>
               </Link>
             </li>
             <li>
               <Link className="list" to="/contact">
-                <h3>CONTACT US </h3>
+              <div className="nav-text-icon">
                 <FontAwesomeIcon icon={faPhone} />
+                <h3>CONTACT US </h3>
+                </div>
               </Link>
             </li>
           </ul>
