@@ -419,7 +419,7 @@
   }
 
   .contact {
-    right: 1rem;
+    right: 2rem;
     width: 21rem;
   }
 }
@@ -427,14 +427,21 @@
 @media (max-width: 389px) {
   .contact {
     right: -1rem;
-  }
-
-  .contact {
     width: 20rem;
   }
 
   .contact input {
     width: 16rem;
+  }
+
+  .contact button {
+    padding: 1rem 4rem;
+  }
+}
+@media (max-width: 375px) {
+  .contact {
+    right: 0rem;
+    width: 20rem;
   }
 
   .contact button {
