@@ -8,12 +8,11 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 // import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import { icon } from "@fortawesome/fontawesome-svg-core";
 
 export default function Navbar() {
   // const [move, setMove] = useState();
-
 
   const topFunction = () => {
     document.body.scrollTop = 0; // for safari
@@ -24,42 +23,62 @@ export default function Navbar() {
     <>
       <div className="main-div">
         <div className="nav-bar">
-          <Link to="/">
+          <NavLink to="/">
             <img id="img" src={logo} alt="error" />
-          </Link>
+          </NavLink>
 
           <ul className="nav-ul">
             <li className="li">
-              <Link className="list" to="/" onClick={topFunction}>
-                <div className="home1">
+              <NavLink
+                className="list"
+                to="/"
+                onClick={topFunction}
+                activeClassName="active-link"
+              >
+                <div className="home">
                   <FontAwesomeIcon icon={faHouse} />
                   <h3> HOME </h3>
                 </div>
-              </Link>
+              </NavLink>
             </li>
             <li className="li">
-              <Link className="list" to="/work" onClick={topFunction}>
-                <div className="home2">
+              <NavLink
+                className="list"
+                to="/work"
+                onClick={topFunction}
+                activeClassName="active-link"
+              >
+                <div className="home">
                   <FontAwesomeIcon icon={faBookOpen} />
                   <h3> OUR WORK </h3>
                 </div>
-              </Link>
+              </NavLink>
             </li>
             <li className="li">
-              <Link className="list" to="/about" onClick={topFunction}>
-                <div className="home3">
+              <NavLink
+                className="list"
+                to="/about"
+                onClick={topFunction}
+                activeClassName="active-link"
+              >
+                <div className="home">
                   <FontAwesomeIcon icon={faBriefcase} />
                   <h3>ABOUT US </h3>
                 </div>
-              </Link>
+              </NavLink>
             </li>
             <li className="li">
-              <Link className="list" to="/contact" onClick={topFunction}>
-                <div className="home4">
+              <NavLink
+                className="list"
+                to="/contact"
+                onClick={topFunction}
+                activeClassName="active-link"
+              >
+                <div className="home">
                   <FontAwesomeIcon icon={faPhone} />
                   <h3>CONTACT US </h3>
                 </div>
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>

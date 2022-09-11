@@ -5,7 +5,7 @@ import { ourwork as Ourworkdata } from "./ourworkdata";
 export default function ourwork() {
   return (
     <>
-      <h1 className="heading-ourworks">Recent House for sale</h1>
+      <h1 className="heading-ourworks">Houses for sale</h1>
       <div className="ourwork-section">
         {Ourworkdata.map((val) => {
           return (
