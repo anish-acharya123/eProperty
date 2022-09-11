@@ -1,4 +1,4 @@
-import {React} from "react";
+import { React } from "react";
 import logo from "../../Assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
@@ -9,53 +9,84 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+// import { icon } from "@fortawesome/fontawesome-svg-core";
 
 export default function Navbar() {
+  // const [move, setMove] = useState();
 
-  const toFunction = ()=>{
+  const home1 = document.querySelector('.home1');
+  const home2 = document.querySelector('.home2');
+  const home3 = document.querySelector('.home3');
+  const home4 = document.querySelector('.home4');
+
+  home1.addEventListener('click',()=>{
+    home1.classList.add('active');
+    home2.classList.remove('active');
+    home3.classList.remove('active');
+    home4.classList.remove('active');
+  })
+  home2.addEventListener('click',()=>{
+    home2.classList.add('active');
+    home1.classList.remove('active');
+    home3.classList.remove('active');
+    home4.classList.remove('active');
+  })
+  home3.addEventListener('click',()=>{
+    home3.classList.add('active');
+    home1.classList.remove('active');
+    home2.classList.remove('active');
+    home4.classList.remove('active');
+  })
+  home4.addEventListener('click',()=>{
+    home4.classList.add('active');
+    home1.classList.remove('active');
+    home2.classList.remove('active');
+    home3.classList.remove('active');
+  })
+
+  const topFunction = () => {
     document.body.scrollTop = 0; // for safari
-    document.documentElement.scrollTop = 0; // for chrome,firefox, IE and Opera
-  }
+    document.documentElement.scrollTop = 0;
+  };
 
   return (
     <>
       <div className="main-div">
         <div className="nav-bar">
-          <Link  to="/">
+          <Link to="/">
             <img id="img" src={logo} alt="error" />
           </Link>
 
           <ul className="nav-ul">
-            <li>
-              <Link className={`list`} to="/"  onClick={toFunction}>
-                <div className={``}>
-
-                <FontAwesomeIcon icon={faHouse}/>
-                <h3> HOME </h3>
+            <li className="li">
+              <Link className="list" to="/" onClick={topFunction}>
+                <div className='home1'>
+                  <FontAwesomeIcon icon={faHouse} />
+                  <h3> HOME </h3>
                 </div>
               </Link>
             </li>
-            <li>
-              <Link className="list" to="/work"  onClick={toFunction}>
-              <div className={``}>
-                <FontAwesomeIcon icon={faBookOpen} />
-                <h3> OUR WORK </h3>
+            <li className="li">
+              <Link className="list" to="/work" onClick={topFunction}>
+                <div className='home2'>
+                  <FontAwesomeIcon icon={faBookOpen} />
+                  <h3> OUR WORK </h3>
                 </div>
               </Link>
             </li>
-            <li>
-              <Link className="list" to="/about"  onClick={toFunction}>
-              <div className={``}>
-                <FontAwesomeIcon icon={faBriefcase} />
-                <h3>ABOUT US </h3>
+            <li className="li">
+              <Link className="list" to="/about" onClick={topFunction}>
+                <div className='home3'>
+                  <FontAwesomeIcon icon={faBriefcase} />
+                  <h3>ABOUT US </h3>
                 </div>
               </Link>
             </li>
-            <li>
-              <Link className="list" to="/contact"  onClick={toFunction}>
-              <div className={``}>
-                <FontAwesomeIcon icon={faPhone} />
-                <h3>CONTACT US </h3>
+            <li className="li">
+              <Link className="list" to="/contact" onClick={topFunction}>
+                <div className='home4'>
+                  <FontAwesomeIcon icon={faPhone} />
+                  <h3>CONTACT US </h3>
                 </div>
               </Link>
             </li>
