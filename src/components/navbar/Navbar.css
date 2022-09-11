@@ -41,6 +41,24 @@
 .list svg {
   display: none;
 }
+
+.active-link {
+  color: red;
+}
+
+.active h3 {
+  color: #9fa5eb;
+}
+
+/* .active h3,
+.active svg {
+  color: #705dd8;
+} */
+
+/* .active h3 {
+  border-bottom: 2px solid red;
+} */
+
 @media (max-width: 1030px) {
   #img {
     margin-left: 7rem;
@@ -51,7 +69,6 @@
     text-indent: 2rem;
   }
 }
-
 
 @media (max-width: 700px) {
   .nav-bar {
@@ -65,6 +82,7 @@
   }
 
   .nav-ul {
+    height: 5rem;
     position: fixed;
     z-index: 99;
     bottom: 0;
@@ -75,7 +93,7 @@
     text-indent: 0;
     display: flex;
     justify-content: space-around;
-    border-top: 2px solid rgba(255, 250, 250, 0.5);
+    border-top: 0.5px solid rgba(255, 250, 250, 0.2);
   }
 
   /* .list {
@@ -84,28 +102,31 @@
   } */
 
   .list h3 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     text-align: right;
+    line-height: 1.5rem;
   }
 
   .list svg {
     display: inline-block;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     /* background-color: aqua; */
     width: 100%;
   }
-  .active{
-    color: rgb(129, 184, 239);
-    border-bottom: 2px solid rgb(129, 184, 239);
-    /* transition: 0.3s ease; */
-    /* display: inline-block; */
-  }
+
   .nav-ul {
     text-indent: 0;
   }
+
+  .active h3 {
+    color: white;
+  }
+
+  .active .home {
+    border-bottom: 1px solid red;
+    border-bottom: 1px solid #9fa5eb;
+  }
 }
-
-
 
 @media (max-width: 405px) {
   .list {
