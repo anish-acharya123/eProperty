@@ -9,11 +9,11 @@ export default function ourwork() {
       <div className="ourwork-section">
         {Ourworkdata.map((val) => {
           return (
-            <div class="ourwork-card">
+            <div className="ourwork-card">
               <div className="image-wrapper">
                 <img src={val.image} alt="our work img" />
               </div>
-              <div class="ourwork_title">{val.title}</div>
+              <div className="ourwork_title">{val.title}</div>
               <button>Contact Us</button>
             </div>
           );
