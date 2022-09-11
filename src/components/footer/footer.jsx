@@ -1,14 +1,16 @@
 import React from "react";
-import "./footer.css";
+// import "./footer.css";
 import github from "../../Assets/github_logo.svg";
 import facebook from "../../Assets/facebook_logo.svg";
 import instagram from "../../Assets/instagram_logo.svg";
 import twitter from "../../Assets/twitter_logo.svg";
 import logo from "../../Assets/logo.svg";
 
+import { FooterSection } from "./FooterStyled";
+
 export default function footer() {
   return (
-    <div className="footer-section">
+    <FooterSection>
       <div className="footer-first">
         <div className="first">
           <div className="footer-text1">
@@ -89,6 +91,6 @@ export default function footer() {
           </div>
         </div>
       </div>
-    </div>
+    </FooterSection>
   );
 }
