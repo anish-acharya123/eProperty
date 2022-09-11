@@ -14,46 +14,6 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   // const [move, setMove] = useState();
 
-  const home1 = document.querySelector(".home1");
-  const home2 = document.querySelector(".home2");
-  const home3 = document.querySelector(".home3");
-  const home4 = document.querySelector(".home4");
-
-if(home1){
-  home1.addEventListener("click", () => {
-    home1.classList.add("active");
-    home2.classList.remove("active");
-    home3.classList.remove("active");
-    home4.classList.remove("active");
-  });
-}
-
-if(home2){
-  home2.addEventListener("click", () => {
-    home2.classList.add("active");
-    home1.classList.remove("active");
-    home3.classList.remove("active");
-    home4.classList.remove("active");
-  });
-}
-
-if(home3){
-  home3.addEventListener("click", () => {
-    home3.classList.add("active");
-    home1.classList.remove("active");
-    home2.classList.remove("active");
-    home4.classList.remove("active");
-  });
-}
-
-if(home1){
-  home4.addEventListener("click", () => {
-    home4.classList.add("active");
-    home1.classList.remove("active");
-    home2.classList.remove("active");
-    home3.classList.remove("active");
-  });
-}
 
   const topFunction = () => {
     document.body.scrollTop = 0; // for safari
