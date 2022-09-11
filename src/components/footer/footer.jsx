@@ -17,7 +17,7 @@ export default function footer() {
           <div className="icon">
             <div>
               <a
-                href="https://github.com"
+                href="https://github.com/anish-acharya123"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="footer"
@@ -29,7 +29,7 @@ export default function footer() {
             </div>
             <div>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/anish.acharya.79230"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="footer"
@@ -42,7 +42,7 @@ export default function footer() {
             </div>
             <div>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/iamanish_acharya/"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="footer"

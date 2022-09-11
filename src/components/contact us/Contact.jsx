@@ -31,7 +31,7 @@ export default function Contact() {
             <div className="icon1">
               <div>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/anish-acharya123"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="footer"
@@ -43,7 +43,7 @@ export default function Contact() {
               </div>
               <div>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/anish.acharya.79230"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="footer"
@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
               <div>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/iamanish_acharya/"
                   target="_blank"
                   rel="noopener noreferrer"
                   alt="footer"
@@ -73,8 +73,7 @@ export default function Contact() {
                 >
                   <img src={twitter} alt="error" className="contact-img" />
                 </a>
-                <br />{" "}
-                <div className="contact-icon-text">twitter</div>
+                <br /> <div className="contact-icon-text">twitter</div>
               </div>
             </div>
           </div>
