@@ -96,7 +96,8 @@
   }
   .active{
     color: rgb(129, 184, 239);
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(129, 184, 239);
+    /* transition: 0.3s ease; */
     /* display: inline-block; */
   }
   .nav-ul {

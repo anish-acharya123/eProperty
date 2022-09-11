@@ -14,35 +14,46 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   // const [move, setMove] = useState();
 
-  const home1 = document.querySelector('.home1');
-  const home2 = document.querySelector('.home2');
-  const home3 = document.querySelector('.home3');
-  const home4 = document.querySelector('.home4');
+  const home1 = document.querySelector(".home1");
+  const home2 = document.querySelector(".home2");
+  const home3 = document.querySelector(".home3");
+  const home4 = document.querySelector(".home4");
 
-  home1.addEventListener('click',()=>{
-    home1.classList.add('active');
-    home2.classList.remove('active');
-    home3.classList.remove('active');
-    home4.classList.remove('active');
-  })
-  home2.addEventListener('click',()=>{
-    home2.classList.add('active');
-    home1.classList.remove('active');
-    home3.classList.remove('active');
-    home4.classList.remove('active');
-  })
-  home3.addEventListener('click',()=>{
-    home3.classList.add('active');
-    home1.classList.remove('active');
-    home2.classList.remove('active');
-    home4.classList.remove('active');
-  })
-  home4.addEventListener('click',()=>{
-    home4.classList.add('active');
-    home1.classList.remove('active');
-    home2.classList.remove('active');
-    home3.classList.remove('active');
-  })
+if(home1){
+  home1.addEventListener("click", () => {
+    home1.classList.add("active");
+    home2.classList.remove("active");
+    home3.classList.remove("active");
+    home4.classList.remove("active");
+  });
+}
+
+if(home2){
+  home2.addEventListener("click", () => {
+    home2.classList.add("active");
+    home1.classList.remove("active");
+    home3.classList.remove("active");
+    home4.classList.remove("active");
+  });
+}
+
+if(home3){
+  home3.addEventListener("click", () => {
+    home3.classList.add("active");
+    home1.classList.remove("active");
+    home2.classList.remove("active");
+    home4.classList.remove("active");
+  });
+}
+
+if(home1){
+  home4.addEventListener("click", () => {
+    home4.classList.add("active");
+    home1.classList.remove("active");
+    home2.classList.remove("active");
+    home3.classList.remove("active");
+  });
+}
 
   const topFunction = () => {
     document.body.scrollTop = 0; // for safari
@@ -60,7 +71,7 @@ export default function Navbar() {
           <ul className="nav-ul">
             <li className="li">
               <Link className="list" to="/" onClick={topFunction}>
-                <div className='home1'>
+                <div className="home1">
                   <FontAwesomeIcon icon={faHouse} />
                   <h3> HOME </h3>
                 </div>
@@ -68,7 +79,7 @@ export default function Navbar() {
             </li>
             <li className="li">
               <Link className="list" to="/work" onClick={topFunction}>
-                <div className='home2'>
+                <div className="home2">
                   <FontAwesomeIcon icon={faBookOpen} />
                   <h3> OUR WORK </h3>
                 </div>
@@ -76,7 +87,7 @@ export default function Navbar() {
             </li>
             <li className="li">
               <Link className="list" to="/about" onClick={topFunction}>
-                <div className='home3'>
+                <div className="home3">
                   <FontAwesomeIcon icon={faBriefcase} />
                   <h3>ABOUT US </h3>
                 </div>
@@ -84,7 +95,7 @@ export default function Navbar() {
             </li>
             <li className="li">
               <Link className="list" to="/contact" onClick={topFunction}>
-                <div className='home4'>
+                <div className="home4">
                   <FontAwesomeIcon icon={faPhone} />
                   <h3>CONTACT US </h3>
                 </div>
