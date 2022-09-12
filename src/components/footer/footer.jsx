@@ -1,5 +1,4 @@
 import React from "react";
-// import "./footer.css";
 import github from "../../Assets/github_logo.svg";
 import facebook from "../../Assets/facebook_logo.svg";
 import instagram from "../../Assets/instagram_logo.svg";
@@ -25,7 +24,7 @@ export default function footer() {
                 alt="footer"
               >
                 <img src={github} alt="error" />
-              </a>{" "}
+              </a>
               <br />
               <div className="first-icon-text">Github</div>
             </div>
