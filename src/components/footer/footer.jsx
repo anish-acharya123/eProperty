@@ -23,7 +23,7 @@ export default function footer() {
                 rel="noopener noreferrer"
                 alt="footer"
               >
-                <img src={github} alt="error" />
+                <img src={github} alt="github" />
               </a>
               <br />
               <div className="first-icon-text">Github</div>
@@ -35,7 +35,7 @@ export default function footer() {
                 rel="noopener noreferrer"
                 alt="footer"
               >
-                <img src={facebook} alt="error" />
+                <img src={facebook} alt="facebook" />
               </a>
               <br />
               <div className="first-icon-text">facebook</div>
@@ -47,7 +47,7 @@ export default function footer() {
                 rel="noopener noreferrer"
                 alt="footer"
               >
-                <img src={instagram} alt="error" />
+                <img src={instagram} alt="instagram" />
               </a>
               <div className="first-icon-text">instagram</div>
             </div>
@@ -58,14 +58,14 @@ export default function footer() {
                 rel="noopener noreferrer"
                 alt="footer"
               >
-                <img src={twitter} alt="error" />
+                <img src={twitter} alt="twitter" />
               </a>
               <br /> <div className="first-icon-text">twitter</div>
             </div>
           </div>
         </div>
         <div className="second">
-          <img src={logo} alt="" /> <br />
+          <img src={logo} alt="logo" /> <br />
           <div className="second-icon-text">COPYRIGHT ANISH ACHARYA 2022</div>
         </div>
       </div>
