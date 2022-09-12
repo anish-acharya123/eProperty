@@ -24,7 +24,7 @@ export default function footer() {
                 alt="footer"
               >
                 <img src={github} alt="error" />
-              </a>{" "}
+              </a>
               <br />
               <div className="first-icon-text">Github</div>
             </div>
