@@ -195,8 +195,9 @@ const NavBarDiv = styled.div`
     }
 
     .active .home {
-      border-bottom: 1px solid red;
+      // border-bottom: 1px solid red;
       border-bottom: 1px solid #9fa5eb;
+      transition: all ease-in-out .2s;
     }
   }
 
